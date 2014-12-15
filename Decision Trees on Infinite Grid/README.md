@@ -3,7 +3,7 @@ Decision Trees on Infinite Grid
 
 To run, execute the following command:
     
-    >> python tree.spy
+    >> python trees.py
 
 Required Packages
 -----------------s
