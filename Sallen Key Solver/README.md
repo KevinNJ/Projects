@@ -1,4 +1,4 @@
-Short Time Fourier Transform
+Sallen-Key Filter Simulated Annealing Optimizer
 =============================
 
 To run, execute the following command:
