@@ -178,11 +178,12 @@ class StftGui(QMainWindow):
 
 
 if __name__ == '__main__':
-
+    import os.path as path
     make_gui('sfft_gui')
     from sfft_gui import Ui_MainWindow
 
-    filename = 'mike_chirp.wav'
+    
+    filename = path.join('media','mike_chirp.wav')
     #filename = 'mike_annoying.wav'
     #filename = 'New Seal and New Spring_conv.wav'
 
