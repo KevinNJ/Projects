@@ -1,0 +1,10 @@
+set -e
+
+directory=`dirname $0`
+
+cd $directory/debug
+rm -r *
+#CC=/usr/bin/gcc CXX=/usr/bin/g++ cmake -DCMAKE_BUILD_TYPE=Debug ..
+CC=/usr/bin/clang CXX=/usr/bin/clang++ cmake -DCMAKE_BUILD_TYPE=Debug ..
+make
+./src/unit_tests
